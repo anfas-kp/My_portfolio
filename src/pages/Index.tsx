@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import { Github, Linkedin, Mail, MapPin, Calendar, ExternalLink, ChevronDown } from 'lucide-react';
 import ParticleBackground from '../components/ParticleBackground';
@@ -6,21 +5,17 @@ import SkillsSection from '../components/SkillsSection';
 import ProjectsSection from '../components/ProjectsSection';
 import ExperienceSection from '../components/ExperienceSection';
 import ContactForm from '../components/ContactForm';
-
 const Index = () => {
   const [activeSection, setActiveSection] = useState('hero');
-
   useEffect(() => {
     const handleScroll = () => {
       const sections = ['hero', 'about', 'skills', 'projects', 'experience', 'contact'];
       const scrollPosition = window.scrollY + 100;
-
       for (const section of sections) {
         const element = document.getElementById(section);
         if (element) {
           const offsetTop = element.offsetTop;
           const height = element.offsetHeight;
-          
           if (scrollPosition >= offsetTop && scrollPosition < offsetTop + height) {
             setActiveSection(section);
             break;
@@ -28,20 +23,18 @@ const Index = () => {
         }
       }
     };
-
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
     }
   };
-
-  return (
-    <div className="bg-gray-900 text-white min-h-screen">
+  return <div className="bg-gray-900 text-white min-h-screen">
       <ParticleBackground />
       
       {/* Navigation */}
@@ -52,19 +45,9 @@ const Index = () => {
               Anfas KP
             </div>
             <div className="hidden md:flex space-x-8">
-              {['About', 'Skills', 'Projects', 'Experience', 'Contact'].map((item) => (
-                <button
-                  key={item}
-                  onClick={() => scrollToSection(item.toLowerCase())}
-                  className={`nav-link transition-all duration-300 ${
-                    activeSection === item.toLowerCase() 
-                      ? 'text-blue-400' 
-                      : 'text-gray-300 hover:text-white'
-                  }`}
-                >
+              {['About', 'Skills', 'Projects', 'Experience', 'Contact'].map(item => <button key={item} onClick={() => scrollToSection(item.toLowerCase())} className={`nav-link transition-all duration-300 ${activeSection === item.toLowerCase() ? 'text-blue-400' : 'text-gray-300 hover:text-white'}`}>
                   {item}
-                </button>
-              ))}
+                </button>)}
             </div>
           </div>
         </div>
@@ -89,13 +72,8 @@ const Index = () => {
           <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in animation-delay-500">
             Building the Future with Data, Vision, and Logic
           </p>
-          <p className="text-lg text-gray-400 mb-12 animate-fade-in animation-delay-1000">
-            AI & Data Science Enthusiast • Explainable AI (XAI) • Robotics • Machine Learning
-          </p>
-          <button 
-            onClick={() => scrollToSection('about')}
-            className="group inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-500 px-8 py-4 rounded-full text-white font-semibold hover:from-blue-600 hover:to-purple-600 transition-all duration-300 transform hover:scale-105 animate-fade-in animation-delay-1500"
-          >
+          <p className="text-lg text-gray-400 mb-12 animate-fade-in animation-delay-1000">AI &amp; Data Science Enthusiast • Django • Robotics • Machine Learning</p>
+          <button onClick={() => scrollToSection('about')} className="group inline-flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-purple-500 px-8 py-4 rounded-full text-white font-semibold hover:from-blue-600 hover:to-purple-600 transition-all duration-300 transform hover:scale-105 animate-fade-in animation-delay-1500">
             <span>Explore My Work</span>
             <ChevronDown className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
           </button>
@@ -175,26 +153,13 @@ const Index = () => {
       <footer className="py-12 px-6 border-t border-white/10">
         <div className="container mx-auto text-center">
           <div className="flex justify-center space-x-6 mb-8">
-            <a 
-              href="https://linkedin.com" 
-              className="social-icon group"
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
+            <a href="https://linkedin.com" className="social-icon group" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-6 h-6 group-hover:text-blue-400 transition-colors" />
             </a>
-            <a 
-              href="https://github.com" 
-              className="social-icon group"
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
+            <a href="https://github.com" className="social-icon group" target="_blank" rel="noopener noreferrer">
               <Github className="w-6 h-6 group-hover:text-purple-400 transition-colors" />
             </a>
-            <a 
-              href="mailto:anfas@example.com" 
-              className="social-icon group"
-            >
+            <a href="mailto:anfas@example.com" className="social-icon group">
               <Mail className="w-6 h-6 group-hover:text-green-400 transition-colors" />
             </a>
           </div>
@@ -203,8 +168,6 @@ const Index = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
