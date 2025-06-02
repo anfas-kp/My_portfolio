@@ -13,7 +13,7 @@ const SkillsSection = () => {
     { name: 'Deep Learning', level: 87, color: 'from-indigo-500 to-indigo-600' },
     { name: 'Computer Vision', level: 83, color: 'from-pink-500 to-pink-600' },
     { name: 'NLP', level: 80, color: 'from-cyan-500 to-cyan-600' },
-    { name: 'Explainable AI', level: 90, color: 'from-yellow-500 to-yellow-600' },
+    { name: 'Django', level: 90, color: 'from-yellow-500 to-yellow-600' },
     { name: 'Data Analysis', level: 94, color: 'from-teal-500 to-teal-600' },
   ];
 
