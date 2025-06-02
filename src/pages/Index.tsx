@@ -6,6 +6,7 @@ import SkillsSection from '../components/SkillsSection';
 import ProjectsSection from '../components/ProjectsSection';
 import ExperienceSection from '../components/ExperienceSection';
 import ContactForm from '../components/ContactForm';
+import HeroImage from '../components/HeroImage';
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState('hero');
@@ -75,6 +76,9 @@ const Index = () => {
       {/* Hero Section */}
       <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
         <div className="text-center z-10 px-6">
+          {/* Hero Image */}
+          <HeroImage />
+          
           <h1 className="text-6xl md:text-8xl font-bold mb-6 animate-fade-in">
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400 bg-clip-text text-transparent animate-pulse">
               Engineering
