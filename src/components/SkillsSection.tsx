@@ -69,8 +69,9 @@ const SkillsSection = () => {
             <h3 className="text-2xl font-bold mb-6 text-blue-400">Technologies & Tools</h3>
             <div className="flex flex-wrap justify-center gap-4">
               {[
-                'Jupyter', 'Git', 'Docker', 'AWS', 'Google Cloud', 'MongoDB', 
-                'PostgreSQL', 'React', 'FastAPI', 'Streamlit', 'OpenCV', 'Pandas'
+                'Git', 'AWS', 'Django', 'Streamlit', 'Flask', 'Gradio', 
+                'Pandas', 'Numpy', 'Seaborn', 'Matplotlib', 'Power BI', 'OpenCV', 
+                'CNN', 'RNN', 'Canva', 'SQL', 'DL', 'ML'
               ].map((tech) => (
                 <span
                   key={tech}
