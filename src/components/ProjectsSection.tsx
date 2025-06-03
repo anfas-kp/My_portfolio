@@ -5,7 +5,7 @@ const ProjectsSection = () => {
     {
       title: 'Explainable AI Framework',
       description: 'A comprehensive framework for interpreting machine learning models with SHAP, LIME, and custom visualization tools.',
-      tags: ['Python', 'XAI', 'SHAP', 'Streamlit'],
+      tags: ['Python', 'CNN', 'Flask', 'TensorFlow'],
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop',
       github: '#',
       demo: '#',
