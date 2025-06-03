@@ -5,7 +5,6 @@ import SkillsSection from '../components/SkillsSection';
 import ProjectsSection from '../components/ProjectsSection';
 import ExperienceSection from '../components/ExperienceSection';
 import ContactForm from '../components/ContactForm';
-
 const Index = () => {
   const [activeSection, setActiveSection] = useState('hero');
   useEffect(() => {
@@ -109,28 +108,28 @@ const Index = () => {
                 <div className="timeline-item border-l-2 border-blue-500 pl-6 pb-6">
                   <div className="flex items-center space-x-3 mb-2">
                     <Calendar className="w-5 h-5 text-blue-400" />
-                    <span className="text-blue-400 font-semibold">2024</span>
+                    <span className="text-blue-400 font-semibold">2026</span>
                   </div>
                   <h4 className="font-semibold text-white">AI Research & Development</h4>
-                  <p className="text-gray-400">Advancing Explainable AI methodologies</p>
+                  <p className="text-gray-400">Exploring Advanced AI methodologies</p>
                 </div>
                 
                 <div className="timeline-item border-l-2 border-purple-500 pl-6 pb-6">
                   <div className="flex items-center space-x-3 mb-2">
                     <Calendar className="w-5 h-5 text-purple-400" />
-                    <span className="text-purple-400 font-semibold">2023</span>
+                    <span className="text-purple-400 font-semibold">2025</span>
                   </div>
-                  <h4 className="font-semibold text-white">Machine Learning Specialization</h4>
+                  <h4 className="font-semibold text-white">Diploma in AI Data Engineering</h4>
                   <p className="text-gray-400">Deep dive into ML algorithms and applications</p>
                 </div>
                 
                 <div className="timeline-item border-l-2 border-blue-500 pl-6">
                   <div className="flex items-center space-x-3 mb-2">
                     <Calendar className="w-5 h-5 text-blue-400" />
-                    <span className="text-blue-400 font-semibold">2022</span>
+                    <span className="text-blue-400 font-semibold">2024</span>
                   </div>
-                  <h4 className="font-semibold text-white">Data Science Journey Begins</h4>
-                  <p className="text-gray-400">Foundation in data analysis and visualization</p>
+                  <h4 className="font-semibold text-white">Bsc Physics with Computer Application</h4>
+                  <p className="text-gray-400">Foundation in python</p>
                 </div>
               </div>
             </div>
