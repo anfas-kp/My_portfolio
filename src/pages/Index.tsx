@@ -5,6 +5,7 @@ import SkillsSection from '../components/SkillsSection';
 import ProjectsSection from '../components/ProjectsSection';
 import ExperienceSection from '../components/ExperienceSection';
 import ContactForm from '../components/ContactForm';
+
 const Index = () => {
   const [activeSection, setActiveSection] = useState('hero');
   useEffect(() => {
@@ -153,13 +154,13 @@ const Index = () => {
       <footer className="py-12 px-6 border-t border-white/10">
         <div className="container mx-auto text-center">
           <div className="flex justify-center space-x-6 mb-8">
-            <a href="https://linkedin.com" className="social-icon group" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/anfas--kp" className="social-icon group" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-6 h-6 group-hover:text-blue-400 transition-colors" />
             </a>
-            <a href="https://github.com" className="social-icon group" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/anfas-kp" className="social-icon group" target="_blank" rel="noopener noreferrer">
               <Github className="w-6 h-6 group-hover:text-purple-400 transition-colors" />
             </a>
-            <a href="mailto:anfas@example.com" className="social-icon group">
+            <a href="mailto:anfasanu178@gmail.com" className="social-icon group">
               <Mail className="w-6 h-6 group-hover:text-green-400 transition-colors" />
             </a>
           </div>
