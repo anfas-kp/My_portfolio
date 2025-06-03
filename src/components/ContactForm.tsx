@@ -85,7 +85,7 @@ const ContactForm = () => {
               <div className="flex flex-wrap gap-3">
                 {[
                   'Explainable AI', 'Machine Learning', 'Computer Vision', 
-                  'Robotics', 'NLP', 'Research Collaboration', 'Consulting'
+                  'Robotics', 'NLP', 'Research Collaboration', 'Web Development'
                 ].map((interest) => (
                   <span
                     key={interest}
