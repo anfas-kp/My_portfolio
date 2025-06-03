@@ -54,7 +54,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <div className="text-gray-400 text-sm">Email</div>
-                    <div className="text-white">anfas.kp@example.com</div>
+                    <div className="text-white">anfasanu178@gmail.com</div>
                   </div>
                 </div>
 
@@ -64,7 +64,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <div className="text-gray-400 text-sm">Location</div>
-                    <div className="text-white">San Francisco, CA</div>
+                    <div className="text-white">Vazhikkadavu, Kerala</div>
                   </div>
                 </div>
 
@@ -74,7 +74,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <div className="text-gray-400 text-sm">Phone</div>
-                    <div className="text-white">+1 (555) 123-4567</div>
+                    <div className="text-white">+91 8547103508</div>
                   </div>
                 </div>
               </div>
