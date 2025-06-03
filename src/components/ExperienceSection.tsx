@@ -1,4 +1,3 @@
-
 import { Calendar, MapPin, Building } from 'lucide-react';
 
 const ExperienceSection = () => {
@@ -139,10 +138,10 @@ const ExperienceSection = () => {
         {/* Stats Section */}
         <div className="mt-20 grid md:grid-cols-4 gap-6">
           {[
-            { number: '5+', label: 'Years Experience' },
-            { number: '50+', label: 'Projects Completed' },
-            { number: '10+', label: 'Research Papers' },
-            { number: '1000+', label: 'GitHub Stars' }
+            { number: '1+', label: 'Years Experience' },
+            { number: '20+', label: 'Projects Completed' },
+            { number: '20+', label: 'Tech Stacks' },
+            { number: '10+', label: 'GitHub Stars' }
           ].map((stat, index) => (
             <div key={index} className="glass-card p-6 rounded-xl text-center">
               <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">
