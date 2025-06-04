@@ -6,7 +6,7 @@ const ProjectsSection = () => {
       title: 'Human Scream Detection',
       description: 'A comprehensive framework for interpreting machine learning models with SHAP, LIME, and custom visualization tools.',
       tags: ['Python', 'CNN', 'Flask', 'TensorFlow'],
-      image: 'https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=600&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=600&h=400&fit=crop',
       github: 'https://github.com/anfas-kp/Human-Scream-Detection',
       demo: '#',
       featured: true
