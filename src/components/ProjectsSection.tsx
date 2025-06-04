@@ -7,7 +7,7 @@ const ProjectsSection = () => {
       description: 'A comprehensive framework for interpreting machine learning models with SHAP, LIME, and custom visualization tools.',
       tags: ['Python', 'CNN', 'Flask', 'TensorFlow'],
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop',
-      github: '#',
+      github: 'https://github.com/anfas-kp/Human-Scream-Detection',
       demo: '#',
       featured: true
     },
@@ -16,7 +16,7 @@ const ProjectsSection = () => {
       description: 'Real-time object detection and classification system using YOLOv8 and OpenCV for robotics applications.',
       tags: ['PyTorch', 'OpenCV', 'YOLO', 'Robotics'],
       image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop',
-      github: '#',
+      github: 'https://github.com/anfas-kp/Games_Global_Sales-Prediction',
       demo: '#',
       featured: true
     },
