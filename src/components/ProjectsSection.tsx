@@ -4,17 +4,17 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: 'Human Scream Detection',
-      description: 'A comprehensive framework for interpreting machine learning models with SHAP, LIME, and custom visualization tools.',
-      tags: ['Python', 'CNN', 'Flask', 'TensorFlow'],
-      image: 'https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=600&h=400&fit=crop',
+      description: 'This project implements a scream detection system using a 1D Convolutional Neural Network (CNN) model. It provides a Flask web application for audio file uploads and real-time scream detection with live audio visualization.',
+      tags: ['Python', '1D CNN', 'Flask', 'Audio Processing'],
+      image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=600&h=400&fit=crop',
       github: 'https://github.com/anfas-kp/Human-Scream-Detection',
       demo: '#',
       featured: true
     },
     {
       title: 'Global Sale Prediction of Games',
-      description: 'Real-time object detection and classification system using YOLOv8 and OpenCV for robotics applications.',
-      tags: ['PyTorch', 'OpenCV', 'YOLO', 'Robotics'],
+      description: 'This project predicts global sales for video games using machine learning techniques. The application is deployed via a Flask web interface, allowing users to input game details and receive sales predictions.',
+      tags: ['Python', 'Scikit-learn', 'Flask', 'ML Prediction'],
       image: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=400&fit=crop',
       github: 'https://github.com/anfas-kp/Games_Global_Sales-Prediction',
       demo: '#',
