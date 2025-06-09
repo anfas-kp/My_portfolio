@@ -1,3 +1,4 @@
+
 import { ExternalLink, Github } from 'lucide-react';
 
 const ProjectsSection = () => {
@@ -25,7 +26,7 @@ const ProjectsSection = () => {
       description: 'Machine learning model to predict passenger survival rates using various demographic and travel data features.',
       tags: ['Python', 'Pandas', 'Scikit-learn', 'Classification'],
       image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&h=400&fit=crop',
-      github: '#',
+      github: 'https://github.com/anfas-kp/Passenger_Survival_Prediction-Flask',
       demo: '#',
       featured: false
     },
@@ -34,7 +35,7 @@ const ProjectsSection = () => {
       description: 'Predictive analytics system for early detection of heart disease using clinical parameters and ML algorithms.',
       tags: ['Healthcare', 'ML', 'Python', 'Data Analysis'],
       image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop',
-      github: '#',
+      github: 'https://github.com/anfas-kp/Heart_Disease_Prediction-GRADIO',
       demo: '#',
       featured: false
     },
@@ -43,7 +44,7 @@ const ProjectsSection = () => {
       description: 'Epidemiological model for predicting COVID-19 spread patterns and risk assessment using time series analysis.',
       tags: ['Epidemiology', 'Time Series', 'Python', 'Forecasting'],
       image: 'https://images.unsplash.com/photo-1584118624012-df056829fbd0?w=600&h=400&fit=crop',
-      github: '#',
+      github: 'https://github.com/anfas-kp/COVID19_PREDICTION',
       demo: '#',
       featured: false
     },
@@ -52,7 +53,7 @@ const ProjectsSection = () => {
       description: 'Restaurant tip prediction model analyzing customer behavior patterns and service factors to estimate gratuity amounts.',
       tags: ['Regression', 'Pandas', 'Seaborn', 'EDA'],
       image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop',
-      github: '#',
+      github: 'https://github.com/anfas-kp/Tips_Prediction-Streamlit-Gradio',
       demo: '#',
       featured: false
     }
