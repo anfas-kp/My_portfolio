@@ -21,37 +21,37 @@ const ProjectsSection = () => {
       featured: true
     },
     {
-      title: 'NLP Sentiment Analyzer',
-      description: 'Advanced sentiment analysis tool with transformer models and real-time processing capabilities.',
-      tags: ['NLP', 'BERT', 'Transformers', 'FastAPI'],
-      image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop',
+      title: 'Passenger Survival Prediction',
+      description: 'Machine learning model to predict passenger survival rates using various demographic and travel data features.',
+      tags: ['Python', 'Pandas', 'Scikit-learn', 'Classification'],
+      image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&h=400&fit=crop',
       github: '#',
       demo: '#',
       featured: false
     },
     {
-      title: 'ML Model Interpretability',
-      description: 'Interactive dashboard for understanding black-box machine learning models with various interpretation techniques.',
-      tags: ['Interpretability', 'Dashboard', 'React', 'Python'],
-      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop',
+      title: 'Heart Disease Prediction',
+      description: 'Predictive analytics system for early detection of heart disease using clinical parameters and ML algorithms.',
+      tags: ['Healthcare', 'ML', 'Python', 'Data Analysis'],
+      image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&fit=crop',
       github: '#',
       demo: '#',
       featured: false
     },
     {
-      title: 'Robotic Control System',
-      description: 'AI-powered robotic arm control system with computer vision feedback and machine learning optimization.',
-      tags: ['Robotics', 'Control Systems', 'AI', 'IoT'],
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
+      title: 'COVID-19 Prediction',
+      description: 'Epidemiological model for predicting COVID-19 spread patterns and risk assessment using time series analysis.',
+      tags: ['Epidemiology', 'Time Series', 'Python', 'Forecasting'],
+      image: 'https://images.unsplash.com/photo-1584118624012-df056829fbd0?w=600&h=400&fit=crop',
       github: '#',
       demo: '#',
       featured: false
     },
     {
-      title: 'Data Visualization Suite',
-      description: 'Comprehensive data visualization and analysis platform with interactive charts and ML insights.',
-      tags: ['Data Viz', 'D3.js', 'Python', 'Analytics'],
-      image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop',
+      title: 'Tips Prediction',
+      description: 'Restaurant tip prediction model analyzing customer behavior patterns and service factors to estimate gratuity amounts.',
+      tags: ['Regression', 'Pandas', 'Seaborn', 'EDA'],
+      image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop',
       github: '#',
       demo: '#',
       featured: false
