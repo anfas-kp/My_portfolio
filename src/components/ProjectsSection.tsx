@@ -6,7 +6,7 @@ const ProjectsSection = () => {
       title: 'Human Scream Detection',
       description: 'This project implements a scream detection system using a 1D Convolutional Neural Network (CNN) model. It provides a Flask web application for audio file uploads and real-time scream detection with live audio visualization.',
       tags: ['Python', '1D CNN', 'Flask', 'Audio Processing'],
-      image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=600&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=400&fit=crop',
       github: 'https://github.com/anfas-kp/Human-Scream-Detection',
       demo: '#',
       featured: true
