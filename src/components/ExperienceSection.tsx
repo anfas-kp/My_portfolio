@@ -1,62 +1,21 @@
+
 import { Calendar, MapPin, Building } from 'lucide-react';
 
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: 'Senior AI Research Engineer',
-      company: 'TechVision Labs',
-      location: 'San Francisco, CA',
-      duration: '2024 - Present',
+      title: 'Software Developer',
+      company: 'Cyberia Kollam',
+      location: 'Kollam, Kerala',
+      duration: '2025 - Present',
       type: 'Full-time',
-      description: 'Leading research in Explainable AI and developing interpretable machine learning frameworks for enterprise applications.',
+      description: 'Developing web applications using Django framework and contributing to various software development projects.',
       achievements: [
-        'Developed novel XAI algorithms improving model interpretability by 40%',
-        'Led a team of 5 researchers on cutting-edge AI transparency projects',
-        'Published 3 papers in top-tier AI conferences'
+        'Building scalable web applications with Django framework',
+        'Working on full-stack development projects',
+        'Collaborating with team on software solutions'
       ],
-      technologies: ['Python', 'TensorFlow', 'XAI', 'Research']
-    },
-    {
-      title: 'Machine Learning Engineer',
-      company: 'DataFlow Solutions',
-      location: 'Austin, TX',
-      duration: '2023 - 2024',
-      type: 'Full-time',
-      description: 'Designed and implemented ML pipelines for real-time data processing and predictive analytics.',
-      achievements: [
-        'Built scalable ML infrastructure handling 1M+ daily predictions',
-        'Improved model accuracy by 25% through advanced feature engineering',
-        'Mentored junior developers and established ML best practices'
-      ],
-      technologies: ['PyTorch', 'AWS', 'MLOps', 'Docker']
-    },
-    {
-      title: 'Data Science Consultant',
-      company: 'Innovation Hub',
-      location: 'Remote',
-      duration: '2022 - 2023',
-      type: 'Contract',
-      description: 'Provided data science consulting services to startups and established companies across various industries.',
-      achievements: [
-        'Delivered 15+ successful ML projects for diverse clients',
-        'Increased client revenue by average of 30% through data-driven insights',
-        'Specialized in computer vision and NLP applications'
-      ],
-      technologies: ['Scikit-learn', 'OpenCV', 'NLP', 'Consulting']
-    },
-    {
-      title: 'Research Assistant',
-      company: 'University AI Lab',
-      location: 'Cambridge, MA',
-      duration: '2021 - 2022',
-      type: 'Research',
-      description: 'Conducted research on interpretable machine learning and contributed to open-source AI projects.',
-      achievements: [
-        'Co-authored 2 research papers on model interpretability',
-        'Developed open-source tools with 1000+ GitHub stars',
-        'Presented findings at 3 international conferences'
-      ],
-      technologies: ['Research', 'Python', 'Academic Writing', 'Open Source']
+      technologies: ['Django', 'Python', 'Web Development', 'Full-stack']
     }
   ];
 
@@ -139,9 +98,9 @@ const ExperienceSection = () => {
         <div className="mt-20 grid md:grid-cols-4 gap-6">
           {[
             { number: '1+', label: 'Years Experience' },
-            { number: '20+', label: 'Projects Completed' },
-            { number: '20+', label: 'Tech Stacks' },
-            { number: '10+', label: 'GitHub Stars' }
+            { number: '6+', label: 'Projects Completed' },
+            { number: '10+', label: 'Tech Stacks' },
+            { number: '50+', label: 'GitHub Commits' }
           ].map((stat, index) => (
             <div key={index} className="glass-card p-6 rounded-xl text-center">
               <div className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">
