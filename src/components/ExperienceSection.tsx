@@ -30,6 +30,20 @@ const ExperienceSection = () => {
         'Developing expertise in full-stack development'
       ],
       technologies: ['Python', 'Machine Learning', 'Web Development', 'Data Science']
+    },
+    {
+      title: 'Django Developer',
+      company: 'Cyberia Private Limited',
+      location: 'Kollam, Kerala',
+      duration: 'Jun 2024 - Aug 2024',
+      type: 'Internship',
+      description: 'Developed web applications using Django framework, gaining hands-on experience in full-stack development.',
+      achievements: [
+        'Built scalable web applications with Django framework',
+        'Worked on backend development and database management',
+        'Collaborated with team on software solutions'
+      ],
+      technologies: ['Django', 'Python', 'Web Development', 'PostgreSQL']
     }
   ];
 
