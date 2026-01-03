@@ -21,7 +21,7 @@ const ExperienceSection = () => {
       title: 'MCA Student',
       company: 'Yenepoya University',
       location: 'Mangalore, Karnataka',
-      duration: '2024 - Present',
+      duration: '2025 - Present',
       type: 'Education',
       description: 'Currently pursuing Master of Computer Applications (MCA) with focus on advanced computing, software development, and data science.',
       achievements: [
