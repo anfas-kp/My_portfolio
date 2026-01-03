@@ -4,18 +4,32 @@ import { Calendar, MapPin, Building } from 'lucide-react';
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: 'Software Developer',
-      company: 'Cyberia Kollam',
-      location: 'Kollam, Kerala',
+      title: 'Data Scientist',
+      company: 'Manha Facility Management',
+      location: 'Chennai, Tamil Nadu',
       duration: '2025 - Present',
       type: 'Full-time',
-      description: 'Developing web applications using Django framework and contributing to various software development projects.',
+      description: 'Working as a Data Scientist, applying machine learning and data analysis techniques to solve business problems and drive data-driven decisions.',
       achievements: [
-        'Building scalable web applications with Django framework',
-        'Working on full-stack development projects',
-        'Collaborating with team on software solutions'
+        'Developing and deploying machine learning models',
+        'Performing data analysis and visualization',
+        'Building predictive analytics solutions'
       ],
-      technologies: ['Django', 'Python', 'Web Development', 'Full-stack']
+      technologies: ['Python', 'Machine Learning', 'Data Science', 'Analytics']
+    },
+    {
+      title: 'MCA Student',
+      company: 'Yenepoya University',
+      location: 'Mangalore, Karnataka',
+      duration: '2024 - Present',
+      type: 'Education',
+      description: 'Currently pursuing Master of Computer Applications (MCA) with focus on advanced computing, software development, and data science.',
+      achievements: [
+        'Specializing in Machine Learning and AI',
+        'Building practical projects with real-world applications',
+        'Developing expertise in full-stack development'
+      ],
+      technologies: ['Python', 'Machine Learning', 'Web Development', 'Data Science']
     }
   ];
 
@@ -97,7 +111,7 @@ const ExperienceSection = () => {
         {/* Stats Section */}
         <div className="mt-20 grid md:grid-cols-4 gap-6">
           {[
-            { number: '1+', label: 'Years Experience' },
+            { number: '6+', label: 'Months Experience' },
             { number: '6+', label: 'Projects Completed' },
             { number: '10+', label: 'Tech Stacks' },
             { number: '50+', label: 'GitHub Commits' }
